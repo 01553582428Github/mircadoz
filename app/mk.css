@@ -1,0 +1,23 @@
+/* أنماط مشتركة — مستوردة من layout.tsx */
+html { scroll-behavior: smooth; scroll-padding-top: 88px; }
+body { background: #F6F7F2; -webkit-tap-highlight-color: transparent; }
+::selection { background: #D9F26B; color: #0F2A20; }
+
+.mk { overflow-x: clip; }
+.mk a:focus-visible, .mk button:focus-visible, .mk input:focus-visible, .mk textarea:focus-visible {
+  outline: 3px solid #F5A623; outline-offset: 3px; border-radius: 12px;
+}
+
+.grid-bg {
+  background-image:
+    linear-gradient(rgba(255,255,255,.055) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255,255,255,.055) 1px, transparent 1px);
+  background-size: 52px 52px;
+  -webkit-mask-image: radial-gradient(ellipse at 60% 40%, #000 25%, transparent 75%);
+          mask-image: radial-gradient(ellipse at 60% 40%, #000 25%, transparent 75%);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  .no-motion { display: none; }
+}
