@@ -31,7 +31,7 @@ export function Categories() {
               <span className="w-12 h-12 rounded-2xl grid place-items-center bg-white transition-colors duration-300 group-hover:!bg-[#D9F26B]">
                 <cat.icon size={26} style={{ color: C.ink }} />
               </span>
-              <h3 className="font-bold text-base sm:text-lg mt-5 transition-colors duration-300 group-hover:text-white" style={{ color: C.ink }}>{cat.title}</h3>
+              <h3 className="font-bold text-base sm:text-lg mt-5 transition-colors duration-300 group-hover:text-white" >{cat.title}</h3>
               <p className="text-sm text-gray-500 mt-1 transition-colors duration-300 group-hover:text-white/70">{cat.desc}</p>
             </motion.div>
           ))}
