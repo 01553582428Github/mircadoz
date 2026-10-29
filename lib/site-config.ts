@@ -18,8 +18,8 @@ export const APP_KEYS: AppKey[] = ["customer", "vendor", "courier", "admin"];
 // 📞 بيانات التواصل (غيّرها ببياناتك الحقيقية)
 export const CONTACT = {
   email: "support@mircadoz.com",
-  phone: "+20 100 000 0000",
-  whatsapp: "201000000000", // بدون + أو مسافات
+  phone: "+20 01070053582",
+  whatsapp: "201070053582", // بدون + أو مسافات
   address: { ar: "القاهرة، مصر", en: "Cairo, Egypt" },
 };
 
